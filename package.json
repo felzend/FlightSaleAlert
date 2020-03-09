@@ -1,0 +1,26 @@
+{
+  "name": "flight-sales-alert",
+  "version": "1.0.0",
+  "description": "Detector de Inicio de Vendas de Voos na Internet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flight",
+    "sale",
+    "alert",
+    "schedule"
+  ],
+  "author": "Felipe S. Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.4",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}

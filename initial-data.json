@@ -1,0 +1,65 @@
+{
+    "BuscaVoo":
+    [
+        {
+            "origem": "FOR",
+            "destino": "MCZ", 
+            "date": "2020-07-02", 
+            "params": {
+                "departure": "2020-07-02",
+                "origin": "FOR",
+                "destination": "MCZ",
+                "cabin": "Y",
+                "country": "BR",
+                "language": "PT",
+                "home": "pt_br",
+                "adult": "1"
+            }
+        },
+        {
+            "origem": "FOR",
+            "destino": "AJU", 
+            "date": "2020-07-02", 
+            "params": {
+                "departure": "2020-07-02",
+                "origin": "FOR",
+                "destination": "AJU",
+                "cabin": "Y",
+                "country": "BR",
+                "language": "PT",
+                "home": "pt_br",
+                "adult": "1"
+            }
+        },
+        {
+            "origem": "FOR",
+            "destino": "CNF", 
+            "date": "2020-05-05", 
+            "params": {
+                "departure": "2020-05-05",
+                "origin": "FOR",
+                "destination": "CNF",
+                "cabin": "Y",
+                "country": "BR",
+                "language": "PT",
+                "home": "pt_br",
+                "adult": "1"
+            }
+        },
+        {
+            "origem": "FOR",
+            "destino": "VIX", 
+            "date": "2020-04-04", 
+            "params": {
+                "departure": "2020-04-04",
+                "origin": "FOR",
+                "destination": "VIX",
+                "cabin": "Y",
+                "country": "BR",
+                "language": "PT",
+                "home": "pt_br",
+                "adult": "1"
+            }
+        }
+    ]
+}
