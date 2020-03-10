@@ -21,12 +21,12 @@ var flightCatchJob = new CronJob(cronString, function() {
     MongoClient.connect(dbUrl, { useUnifiedTopology: true }, (err, client) => {
         const db = client.db(dbName);
         if (err) {
-            console.error(err);
+            flightMonitorAlertBot.sendMessage(err);
             throw err;
         }
         db.collection(BuscaVoo.collectionName).find({}).toArray((err, data) => {
             if (err) {
-                console.error(err);
+                flightMonitorAlertBot.sendMessage(err);
                 throw err;
             }
             new Promise((resolve, reject) => {
@@ -44,7 +44,7 @@ var flightCatchJob = new CronJob(cronString, function() {
                 db.collection(BuscaVoo.collectionName).find({}).toArray((err, data) => {
                     let promises = [];
                     if (err) {
-                        console.error(err);
+                        flightMonitorAlertBot.sendMessage(err);
                         throw err;
                     }
 
